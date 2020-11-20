@@ -1,0 +1,54 @@
+<!--pages/company/company.wxml-->
+
+<view class='banner' autoplay indicator-dots circular="true">
+  <view class="swiper-item" wx:for="{{swiper}}" wx:key="index">
+    <navigator class="navigator" hover-class="none" url="../join/join">
+      <image mode="widthFix" src="cloud://release-cy5nr.7265-release-cy5nr-1302775048/ruzhu.png"></image>
+    </navigator>
+  </view>
+</view>
+
+<view class="button-box" wx:if="{{!user_info}}">
+  <button open-type="getUserInfo" bindgetuserinfo="auth">一键注册</button>
+</view>
+<view class="button-box" wx:if="{{user_info.is_admin}}">
+  <navigator hover-class="none" url="../admin/admin">
+    管理
+  </navigator>
+</view>
+
+<view id="r_content">
+  <view class="r_shadow">
+    <view class="r_searchlist positiolist">
+      <view class="job-list" wx:for="{{list}}">
+        <view class="job-img">
+          <view class="companyLogo">
+            <image wx:if="{{item.logo}}" mode="aspectFit" src="{{item.logo}}"></image>
+            <image wx:else src="../../images/company-logo.svg"></image>
+          </view>
+        </view>
+        <navigator hover-class="none" url="../company_show/company_show?_id={{item._id}}" class="boxsizing">
+          <view class="jobP-info">
+            <view class="title-info">
+              <view class="job-name fl">
+                {{item.name}}
+              </view>
+            </view>
+            <view class="boxitem clearfix">
+              <view class="box1 fl">
+                <span class="ads">职位{{item.position_number||0}}个</span>
+              </view>
+              <view class="rightbox fr"></view>
+            </view>
+            <view class="job-detail clearfix">
+              <img src="" width="20" height="20" class="MenVipUrl fl" style="display: none;" />
+              <view class="comp-name fl">
+                入驻时间 {{item.time}}
+              </view>
+            </view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,48 @@
+/* pages/join/join.wxss */
+
+page {
+  position: relative;
+  background: #f8f8f8;
+  height: auto;
+}
+
+.poster {
+  width: 750rpx;
+}
+
+.wrap-button {
+  position: fixed;
+  z-index: 1000;
+  bottom: 0;
+  left: 0;
+  padding: 10rpx 20rpx;
+  width: 750rpx;
+  height: 108rpx;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn-now-apply {
+  width: 310rpx;
+  display: block;
+  line-height: 88rpx;
+  text-align: center;
+  font-size: 32rpx;
+  color: #333;
+  background: #f8f8f8;
+  border-radius: 44rpx;
+}
+
+.btn-share {
+  background: #f8f8f8;
+  width: 310rpx;
+  height: 88rpx;
+  color: #333;
+  line-height: 88rpx;
+  text-align: center;
+  font-size: 32rpx;
+  border-radius: 44rpx;
+}

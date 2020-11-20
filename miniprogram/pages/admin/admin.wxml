@@ -1,0 +1,52 @@
+<view class="weui-cells__title">过滤条件</view>
+<view class="weui-cells weui-cells_after-title">
+  <navigator url="../check_area/check_area" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">地区管理</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  <navigator url="../check_label/check_label" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">标签管理</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  <navigator url="../check_type/check_type" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">职位类型</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  <navigator url="../check_salary/check_salary" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">薪水范围</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+</view>
+<view class="weui-cells__title">内容</view>
+<view class="weui-cells weui-cells_after-title">
+  <navigator url="../check_position/check_postion" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">添加职位</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  <navigator url="../check_company_info/check_company_info" class="weui-cell weui-cell_access"
+    hover-class="weui-cell_active">
+    <view class="weui-cell__bd">添加公司</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+</view>
+<view class="weui-cells__title">用户</view>
+<view class="weui-cells weui-cells_after-title">
+  <navigator url="../check_user/check_user" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">用户管理</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+</view>
+<view class="weui-cells__title">其他</view>
+<view class="weui-cells weui-cells_after-title">
+  <navigator url="../check_swiper/check_swiper" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">轮播图管理</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  <navigator url="../check_join/check_join" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">入驻页面管理</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+</view>
+<view class="weui-footer" style="margin-top:30px">
+  <view class="weui-footer__text">Copyright 2018-2020 YoYo招聘</view>
+</view>

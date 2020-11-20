@@ -1,0 +1,12 @@
+<!--pages/join/join.wxml-->
+<image class="poster" mode="widthFix" src="{{one.poster}}">
+</image>
+
+<view class="wrap-button">
+  <view id="btnapply" class="btn-share" bindtap="setClipboardData" data-weixin="{{one.weixin}}">
+    复制微信
+  </view>
+  <view id="btnapply" class="btn-now-apply" bindtap="makePhoneCall" data-phone="{{one.phone}}">
+    拨打电话
+  </view>
+</view>

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#000",
+  "navigationBarTitleText": "YOYO招聘",
+  "navigationBarTextStyle": "white",
+  "navigationStyle":"custom"
+}
